@@ -1,0 +1,6 @@
+add s1,s2,s3
+jalr ra,a5,-07
+lw a5,20(s1)
+sw ra,32(sp)
+auipc s2,-30
+jal ra,-1024
